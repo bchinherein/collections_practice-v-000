@@ -2,11 +2,19 @@ def sort_array_asc(array)
   array.sort {|a, b| a <=> b}
 end
 
+<<<<<<< HEAD
+=======
+def sort_array_asc(array)
+  array.sort {|a, b| a <=> b}
+end
+
+>>>>>>> 40229d5698739bb05a372946f4944dedcb15d97a
 def sort_array_desc(array)
   array.sort.reverse {|a, b| a <=> b}
 end
 
 def sort_array_char_count(array)
+<<<<<<< HEAD
   array.sort {|a, b| a.length <=> b.length}
 end
 
@@ -45,4 +53,7 @@ def add_s(array)
       element + "s"
     end
   end
+=======
+  array.sort {|a, b| a.length <=> b}
+>>>>>>> 40229d5698739bb05a372946f4944dedcb15d97a
 end
